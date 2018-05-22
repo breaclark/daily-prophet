@@ -10,7 +10,7 @@ body {
   width: 1050px;
   display: grid;
   grid-auto-columns: 256px;
-  grid-template-rows: 175px 85px 250px 250px 250px 250px 120px 60px 40px;
+  grid-template-rows: 175px 85px 250px 350px 200px 250px 120px 60px 40px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -97,9 +97,37 @@ body {
   font-size: 22pt;
 }
 
+.hurricane-photo {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14pt;
+}
+
+.hurricane-photo blockquote {
+  font-family: serif;
+  text-align: left;
+  font-size: 12pt;
+}
+
 .rita {
+  display: flex;
+  flex-direction: column;
   grid-column: 4 / 5;
   grid-row: 3 / 6;
+}
+
+.rita-title {
+  text-align: center;
+  background-color: black;
+  font-size: 24pt;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  color: #fff8ee;
+}
+
+.rita-title span {
+  font-family: serif;
+  font-size: 8pt;
 }
 
 .hurricane1 {
