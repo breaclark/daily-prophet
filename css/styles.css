@@ -1,0 +1,153 @@
+/* *:not(body) {
+  border: 1px solid black;
+} */
+
+body {
+  background-color: black;
+}
+
+.container {
+  width: 1050px;
+  display: grid;
+  grid-auto-columns: 256px;
+  grid-template-rows: 175px 85px 250px 250px 250px 250px 120px 60px 40px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff8ee;
+  padding: 16px;
+  border-radius: 20px;
+  grid-gap: 8px;
+}
+
+.daily-prophet {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+}
+
+.daily-prophet hr {
+  z-index: -1;
+  border-top: 4px solid black;
+  border-top-style: double;
+  border-bottom: 1px solid black;
+}
+
+#logo {
+  width: 130px;
+}
+
+.exclusive {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  background-color: black;
+  color: #fff8ee;
+  font-size: 45px;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+.inside-mind {
+  grid-column: 2 / 5;
+  grid-row: 2 / 3;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 259px 259px 259px;
+  grid-template-rows: 65px 18px;
+  font-size: 10pt;
+}
+
+.inside-mind-title {
+  grid-row: 1 / 3;
+  grid-column: 1 / 2;
+  font-size: 30px;
+}
+
+.inside-mind-text1 {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+}
+
+.inside-mind-text2 {
+  grid-row: 1 / 2;
+  grid-column: 3 / 4;
+}
+
+.inside-mind-footer {
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+  color: #fff8ee;
+  grid-row: 2 / 3;
+  grid-column: 2 / 4;
+}
+
+.hurricane-maria {
+  font-weight: bold;
+  font-size: 70pt;
+  grid-column: 1 / 4;
+  grid-row: 3 / 4;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+.hurricane-maria span {
+  font-weight: bold;
+  writing-mode: vertical-lr;
+  font-size: 22pt;
+}
+
+.rita {
+  grid-column: 4 / 5;
+  grid-row: 3 / 6;
+}
+
+.hurricane1 {
+  grid-column: 1 / 2;
+  grid-row: 4 / 6;
+}
+
+.hurricane-photo {
+  grid-column: 2 / 4;
+  grid-row: 4 / 5;
+}
+
+.hurricane2 {
+  grid-column: 2 / 3;
+  grid-row: 5 / 6;
+}
+
+.hurricane3 {
+  grid-column: 3 / 4;
+  grid-row: 5 / 6;
+}
+
+.ministry {
+  grid-column: 1 / 3;
+  grid-row: 6 / 7;
+}
+
+.scandal {
+  grid-column: 3 / 4;
+  grid-row: 6 / 7;
+}
+
+.polyjuice {
+  grid-column: 4 / 5;
+  grid-row: 6 / 7;
+}
+
+.weather {
+  grid-column: 1 / 5;
+  grid-row: 7 / 8;
+}
+
+.aurors {
+  grid-column: 1 / 5;
+  grid-row: 8 / 9;
+}
+
+.pages {
+  grid-column: 1 / 5;
+  grid-row: 9 / 10;
+}
