@@ -227,12 +227,24 @@ body {
 }
 
 .aurors {
+  display: flex;
   grid-column: 1 / 5;
   grid-row: 8 / 9;
-  font-size: 30pt;
+  font-size: 28pt;
   font-weight: bold;
   background-color: black;
   color: #fff8ee;
+}
+
+.aurors-right {
+  background-color: #fff8ee;
+  color: black;
+  font-size: 16pt;
+  margin-left: 260px;
+  padding-left: 30px;
+  height: 50px;
+  margin-top: 6px;
+  width: 200px;
 }
 
 .pages {
