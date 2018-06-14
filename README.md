@@ -34,4 +34,4 @@ Contact me at breatortilla@gmail.com
 
 ### License
 
-Copyright (c) 2018 **Brea Borlas**
+Copyright (c) 2018 **Brea Clark**
